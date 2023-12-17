@@ -3,15 +3,13 @@
 </script>
 
 <template>
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
+  <!-- we use the router link tag for any internal link -->
+  <router-link to="/">Home</router-link>
+  <br>
+  <router-link to="/about">About</router-link>
+  <router-view>
+
+  </router-view>
 </template>
 
 <!-- <style scoped>
