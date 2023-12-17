@@ -6,7 +6,11 @@ import App from './App.vue'
 const router = createRouter({
     history: createWebHistory(),
     //here where we will define our routes
-    routes:
+    routes: []
 })
 
-createApp(App).mount('#app')
+createApp(App)
+//register the created router instance
+.use(router)
+
+.mount('#app')
