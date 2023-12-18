@@ -1,6 +1,6 @@
 <template>
-<div class="brazil">
-    <h1>Brazil</h1>
+    <div class="brazil">
+        <h1>Brazil</h1>
 
-</div>
+    </div>
 </template>

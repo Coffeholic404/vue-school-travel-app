@@ -12,7 +12,7 @@
     </div>
 </template>
 
-<script>
+<script >
 import sourceData from '../data.json'
 export default {
     data() {
